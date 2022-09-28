@@ -9,7 +9,8 @@ import './App.css';
 
 function App() {
 
-  const pokemons = useSelector((state) => state.data.pokemons, shallowEqual);
+  const pokemons = useSelector((state) => state.data.pokemonsFiltered, shallowEqual);
+  
   const loading = useSelector((state) => state.ui.loading);
   const dispatch = useDispatch();
 
