@@ -4,8 +4,8 @@ import Meta from 'antd/lib/card/Meta';
 import '../styles/PokemonList.css'
 import { StarOutlined } from '@ant-design/icons';
 
-
-const PokemonCard = ({ name, image }) => {
+const PokemonCard = ({ name, image, types }) => {
+  const typesString = types.map(elem => elem.type.name).join(', ')
   return (
     <div>
       <Card
@@ -13,7 +13,7 @@ const PokemonCard = ({ name, image }) => {
         cover={<img src={image} alt={name} />}
         extra={<StarOutlined/>}
       >
-        <Meta description='fire, magic' />
+        <Meta description={typesString} />
       </Card>
     </div>
   );
