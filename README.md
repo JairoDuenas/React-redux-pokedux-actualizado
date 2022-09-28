@@ -1,3 +1,11 @@
+# Proyecto del Curso Profesional de React.js y Redux
+![Captura de next optimizacion y deploy](.readme-static/Captura-react-redux-actualizado.png)
+
+# Deploy en Vercel
+[Ver la app en producción](https://react-redux-pokedux-actualizado.vercel.app/)
+
+### [Ir a Vercel](https://vercel.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
